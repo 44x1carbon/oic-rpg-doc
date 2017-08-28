@@ -1,0 +1,20 @@
+{
+  "name": "oic-rpg-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "gitbook init",
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "publish": "gh-pages -d _book -m 'Auto publish book'",
+    "deploy": "npm run build && npm run publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-uml": "^0.1.9"
+  }
+}
