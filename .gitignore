@@ -25,6 +25,9 @@ build/Release
 node_modules
 
 _book/
+assets/images/uml
 book.pdf
 book.epub
 book.mobi
+
+.idea/
