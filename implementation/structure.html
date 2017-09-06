@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>OIC-STATUS · GitBook</title>
+        <title>ディレクトリ構造 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../implementation/structure.html" />
+    <link rel="next" href="domain.html" />
     
     
-    <link rel="prev" href="../plan/OICRPG-ARCHITECTURE.html" />
+    <link rel="prev" href="../class-diagram/STATUS.puml.html" />
     
 
     </head>
@@ -142,9 +142,9 @@
         
         
     
-        <li class="chapter active" data-level="3.1" data-path="STATUS.puml.html">
+        <li class="chapter " data-level="3.1" data-path="../class-diagram/STATUS.puml.html">
             
-                <a href="STATUS.puml.html">
+                <a href="../class-diagram/STATUS.puml.html">
             
                     
                     OIC-STATUS
@@ -162,9 +162,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="../implementation/structure.html">
+        <li class="chapter active" data-level="4.1" data-path="structure.html">
             
-                <a href="../implementation/structure.html">
+                <a href="structure.html">
             
                     
                     ディレクトリ構造
@@ -175,9 +175,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="../implementation/domain.html">
+        <li class="chapter " data-level="4.2" data-path="domain.html">
             
-                <a href="../implementation/domain.html">
+                <a href="domain.html">
             
                     
                     Domain層の実装方法
@@ -218,7 +218,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >OIC-STATUS</a>
+        <a href=".." >ディレクトリ構造</a>
     </h1>
 </div>
 
@@ -233,13 +233,22 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="oic-status-&#x30AF;&#x30E9;&#x30B9;&#x56F3;">OIC-STATUS &#x30AF;&#x30E9;&#x30B9;&#x56F3;</h1>
-<p><img src="../assets/images/uml/f4c037743839f6f076a5fa42d30da02a880e9245.svg"></p>
-<h2 id="&#x6388;&#x696D;&#x8A55;&#x4FA1;&#x5165;&#x529B;">&#x6388;&#x696D;&#x8A55;&#x4FA1;&#x5165;&#x529B;</h2>
-<p><img src="../assets/images/uml/06dba5b74f1e619795af67a48ada72a7899b9431.svg"></p>
-<h2 id="&#x8077;&#x696D;&#x7FD2;&#x5F97;">&#x8077;&#x696D;&#x7FD2;&#x5F97;</h2>
-<p><img src="../assets/images/uml/52b8443e5876b194a90646b65a8e74c143d831bb.svg"></p>
-
+                                <h1 id="&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x69CB;&#x9020;">&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x69CB;&#x9020;</h1>
+<pre><code>- app
+    - Domain //&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x5C64;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;
+        - Common        //&#x5168;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3067;&#x5171;&#x6709;&#x306E;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
+        - Dungeon       //Dungeon&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
+        - Guild         //Guild&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
+        - RaidBattle    //RaidBattle&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
+        - Status        //Status&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;     
+        - Utilities     //Entity&#x3084;VO&#x306E;&#x57FA;&#x5E95;&#x30AF;&#x30E9;&#x30B9;&#x3001;&#x305D;&#x306E;&#x4ED6;Utility&#x306A;&#x3069;
+</code></pre><h2 id="domain">Domain</h2>
+<p>&#x3053;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x306F;&#x3001;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306B;&#x95A2;&#x3059;&#x308B;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x3067;&#x3059;&#x3002;<br>&#x5404;&#x5B50;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;(Utilities&#x3092;&#x9664;&#x304F;)&#x4E2D;&#x306B;&#x306F;&#x3001;&#x305D;&#x308C;&#x305E;&#x308C;&#x306E;&#x30E6;&#x30D3;&#x30AD;&#x30BF;&#x30B9;&#x8A00;&#x8A9E;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;<br>&#x3053;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x306E;&#x4E2D;&#x306B;&#x306F;&#x3001;Entity&#x3084;ValueObject,Factory,Repository&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x751F;&#x6210;&#x3057;&#x307E;&#x3059;&#x3002;<br><small>&#x203B;&#x8A73;&#x3057;&#x304F;&#x306F;<a href="">&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x306B;&#x3064;&#x3044;&#x3066;</a>&#x3092;&#x53C2;&#x7167;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</small></p>
+<pre><code>&#x4F8B;&#xFF09;
+- Domain
+    - Common
+        - Student //Student(&#x5B66;&#x751F;)&#x306B;&#x95A2;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x3092;&#x683C;&#x7D0D;&#x3059;&#x308B;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;
+</code></pre>
                                 
                                 </section>
                             
@@ -266,12 +275,12 @@
 
             
                 
-                <a href="../plan/OICRPG-ARCHITECTURE.html" class="navigation navigation-prev " aria-label="Previous page: 構成サービス">
+                <a href="../class-diagram/STATUS.puml.html" class="navigation navigation-prev " aria-label="Previous page: OIC-STATUS">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../implementation/structure.html" class="navigation navigation-next " aria-label="Next page: ディレクトリ構造">
+                <a href="domain.html" class="navigation navigation-next " aria-label="Next page: Domain層の実装方法">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -282,7 +291,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"OIC-STATUS","level":"3.1","depth":1,"next":{"title":"ディレクトリ構造","level":"4.1","depth":1,"path":"implementation/structure.md","ref":"implementation/structure.md","articles":[]},"previous":{"title":"構成サービス","level":"2.2","depth":1,"path":"plan/OICRPG-ARCHITECTURE.md","ref":"plan/OICRPG-ARCHITECTURE.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"class-diagram/STATUS.puml.md","mtime":"2017-09-06T18:14:24.887Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-06T18:15:58.098Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ディレクトリ構造","level":"4.1","depth":1,"next":{"title":"Domain層の実装方法","level":"4.2","depth":1,"path":"implementation/domain.md","ref":"implementation/domain.md","articles":[]},"previous":{"title":"OIC-STATUS","level":"3.1","depth":1,"path":"class-diagram/STATUS.puml.md","ref":"class-diagram/STATUS.puml.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"implementation/structure.md","mtime":"2017-09-06T18:14:24.887Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-06T18:15:58.098Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
