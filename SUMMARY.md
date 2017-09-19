@@ -7,9 +7,9 @@
 * [OIC-RPG企画書](plan/PLANING.md)
 * [構成サービス](plan/OICRPG-ARCHITECTURE.md)
 
-## クラス図
-
-* [OIC-STATUS](class-diagram/STATUS.puml.md)
+## 設計
+* [ユースケース](design/use_case.md)
+* [クラス図](class-diagram/STATUS.puml.md)
 
 ## 実装
 
