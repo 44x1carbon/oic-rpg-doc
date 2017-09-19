@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>OIC-RPG企画書 · GitBook</title>
+        <title>ユースケース · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="OICRPG-ARCHITECTURE.html" />
+    <link rel="next" href="../class-diagram/STATUS.puml.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="../plan/OICRPG-ARCHITECTURE.html" />
     
 
     </head>
@@ -109,9 +109,9 @@
         
         
     
-        <li class="chapter active" data-level="2.1" data-path="PLANING.html">
+        <li class="chapter " data-level="2.1" data-path="../plan/PLANING.html">
             
-                <a href="PLANING.html">
+                <a href="../plan/PLANING.html">
             
                     
                     OIC-RPG企画書
@@ -122,9 +122,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="OICRPG-ARCHITECTURE.html">
+        <li class="chapter " data-level="2.2" data-path="../plan/OICRPG-ARCHITECTURE.html">
             
-                <a href="OICRPG-ARCHITECTURE.html">
+                <a href="../plan/OICRPG-ARCHITECTURE.html">
             
                     
                     構成サービス
@@ -142,9 +142,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../design/use_case.html">
+        <li class="chapter active" data-level="3.1" data-path="use_case.html">
             
-                <a href="../design/use_case.html">
+                <a href="use_case.html">
             
                     
                     ユースケース
@@ -231,7 +231,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >OIC-RPG企画書</a>
+        <a href=".." >ユースケース</a>
     </h1>
 </div>
 
@@ -246,11 +246,36 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="oic-rpg&#x4F01;&#x753B;&#x66F8;">OIC-RPG&#x4F01;&#x753B;&#x66F8;</h1>
-<h2 id="&#x6982;&#x8981;">&#x6982;&#x8981;</h2>
-<p>OIC&#x3067;&#x306E;&#x5B66;&#x5712;&#x751F;&#x6D3B;&#x3092;RPG&#x5316;&#x3059;&#x308B;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3001;&#x3053;&#x306E;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x306F;&#x8907;&#x6570;&#x306E;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x304B;&#x3089;&#x5F62;&#x6210;&#x3055;&#x308C;&#x308B;&#x3002;</p>
-<h2 id="&#x76EE;&#x7684;">&#x76EE;&#x7684;</h2>
-<p>OIC&#x3067;&#x306E;&#x5B66;&#x6226;&#x751F;&#x6D3B;&#x3092;RPG&#x5316;&#x3059;&#x308B;&#x3053;&#x3068;&#x3067;&#x697D;&#x3057;&#x304F;&#x5B66;&#x5712;&#x751F;&#x6D3B;&#x3092;&#x9001;&#x308C;&#x308B;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x3002;&#x305D;&#x3057;&#x3066;&#x69D8;&#x3005;&#x306A;&#x5B66;&#x751F;&#x304C;&#x51FA;&#x4F1A;&#x3046;&#x304D;&#x3063;&#x304B;&#x3051;&#x3092;&#x4F5C;&#x308B;&#x3002;</p>
+                                <h1 id="&#x30E6;&#x30FC;&#x30B9;&#x30B1;&#x30FC;&#x30B9;">&#x30E6;&#x30FC;&#x30B9;&#x30B1;&#x30FC;&#x30B9;</h1>
+<h2 id="oic-guild">OIC-GUILD</h2>
+<ul>
+<li>&#x5B66;&#x751F;&#x304C;&#x4F5C;&#x308A;&#x305F;&#x3044;&#x3082;&#x306E;&#x3092;&#x767B;&#x9332;&#x3057;&#x3001;&#x30D1;&#x30FC;&#x30C6;&#x30A3;&#x3092;&#x52DF;&#x96C6;&#x3067;&#x304D;&#x308B;    </li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x4ED6;&#x306E;&#x5B66;&#x751F;&#x306E;&#x4F5C;&#x308A;&#x305F;&#x3044;&#x3082;&#x306E;&#x306B;&#x53C2;&#x52A0;&#x3067;&#x304D;&#x308B;    </li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x4ED6;&#x306E;&#x5B66;&#x751F;&#x306E;&#x4F5C;&#x308A;&#x305F;&#x3044;&#x3082;&#x306E;&#x3092;&#x691C;&#x7D22;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x4ED6;&#x306E;&#x5B66;&#x751F;&#x3092;&#x30B9;&#x30AD;&#x30EB;&#x3084;&#x30B8;&#x30E7;&#x30D6;&#x3067;&#x691C;&#x7D22;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x4ED6;&#x306E;&#x5B66;&#x751F;&#x3092;&#x30D1;&#x30FC;&#x30C6;&#x30A3;&#x306B;&#x62DB;&#x5F85;&#x3067;&#x304D;&#x308B;</li>
+</ul>
+<h2 id="oic-status">OIC-STATUS</h2>
+<ul>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x6761;&#x4EF6;&#x304C;&#x6574;&#x3063;&#x3066;&#x3044;&#x308C;&#x3070;&#x30B8;&#x30E7;&#x30D6;&#x3092;&#x53D6;&#x5F97;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x81EA;&#x5206;&#x306E;&#x30B9;&#x30C6;&#x30FC;&#x30BF;&#x30B9;&#x3092;&#x78BA;&#x8A8D;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x30E1;&#x30A4;&#x30F3;&#x3068;&#x306A;&#x308B;&#x30B8;&#x30E7;&#x30D6;&#x3092;&#x8A2D;&#x5B9A;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x30E9;&#x30F3;&#x30AD;&#x30F3;&#x30B0;&#x3092;&#x78BA;&#x8A8D;&#x3067;&#x304D;&#x308B;</li>
+<li>OIC-STATUS&#x304C;&#x3001;OIC-DUNGEON&#x306E;&#x8A55;&#x4FA1;&#x3092;&#x5143;&#x306B;&#x3001;&#x5B66;&#x751F;&#x3078;&#x30B9;&#x30AD;&#x30EB;&#x7D4C;&#x9A13;&#x5024;&#x3092;&#x4E0E;&#x3048;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</li>
+<li>OIC-STATUS&#x304C;&#x3001;&#x4E00;&#x5B9A;&#x306E;&#x30B9;&#x30AD;&#x30EB;&#x7D4C;&#x9A13;&#x5024;&#x306B;&#x9054;&#x3057;&#x305F;&#x30B9;&#x30AD;&#x30EB;&#x306E;&#x30B9;&#x30AD;&#x30EB;&#x30EC;&#x30D9;&#x30EB;&#x3092;&#x3042;&#x3052;&#x308B;</li>
+<li>OIC-STATUS&#x304C;&#x3001;OIC-RAIDBATTLE&#x306E;&#x5F79;&#x306B;&#x7ACB;&#x3063;&#x305F;&#x56DE;&#x7B54;&#x60C5;&#x5831;&#x3092;&#x5143;&#x306B;&#x3001;&#x5B66;&#x751F;&#x3078;&#x30B9;&#x30AD;&#x30EB;&#x7D4C;&#x9A13;&#x5024;&#x3092;&#x4E0E;&#x3048;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</li>
+</ul>
+<h2 id="oic-dungeon">OIC-DUNGEON</h2>
+<ul>
+<li>&#x5148;&#x751F;&#x304C;&#x3001;&#x6388;&#x696D;&#x3054;&#x3068;&#x306B;&#x5B66;&#x751F;&#x306E;&#x8A55;&#x4FA1;&#x3092;&#x3064;&#x3051;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</li>
+</ul>
+<h2 id="oic-raidbattle">OIC-RAIDBATTLE</h2>
+<ul>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x8AB2;&#x984C;&#x3092;&#x53D7;&#x3051;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x53D7;&#x3051;&#x3066;&#x3044;&#x308B;&#x8AB2;&#x984C;&#x306E;&#x308F;&#x304B;&#x3089;&#x306A;&#x3044;&#x3053;&#x3068;&#x3092;&#x8CEA;&#x554F;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x4ED6;&#x306E;&#x5B66;&#x751F;&#x306E;&#x8CEA;&#x554F;&#x306B;&#x7B54;&#x3048;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</li>
+<li>&#x5B66;&#x751F;&#x304C;&#x3001;&#x81EA;&#x5206;&#x306E;&#x8CEA;&#x554F;&#x306B;&#x5BFE;&#x3059;&#x308B;&#x56DE;&#x7B54;&#x306B;&#x3001;&#x5F79;&#x306B;&#x7ACB;&#x3063;&#x305F;&#x304B;&#x3069;&#x3046;&#x304B;&#x3092;&#x793A;&#x3059;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</li>
+</ul>
 
                                 
                                 </section>
@@ -278,12 +303,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: OIC-RPGドキュメント">
+                <a href="../plan/OICRPG-ARCHITECTURE.html" class="navigation navigation-prev " aria-label="Previous page: 構成サービス">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="OICRPG-ARCHITECTURE.html" class="navigation navigation-next " aria-label="Next page: 構成サービス">
+                <a href="../class-diagram/STATUS.puml.html" class="navigation navigation-next " aria-label="Next page: クラス図">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -294,7 +319,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"OIC-RPG企画書","level":"2.1","depth":1,"next":{"title":"構成サービス","level":"2.2","depth":1,"path":"plan/OICRPG-ARCHITECTURE.md","ref":"plan/OICRPG-ARCHITECTURE.md","articles":[]},"previous":{"title":"OIC-RPGドキュメント","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"plan/\bPLANING.md","mtime":"2017-09-19T02:20:08.899Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-19T02:21:42.807Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ユースケース","level":"3.1","depth":1,"next":{"title":"クラス図","level":"3.2","depth":1,"path":"class-diagram/STATUS.puml.md","ref":"class-diagram/STATUS.puml.md","articles":[]},"previous":{"title":"構成サービス","level":"2.2","depth":1,"path":"plan/OICRPG-ARCHITECTURE.md","ref":"plan/OICRPG-ARCHITECTURE.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"design/use_case.md","mtime":"2017-09-19T02:20:08.899Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-19T02:21:42.807Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
