@@ -8,10 +8,10 @@
 * [構成サービス](plan/OICRPG-ARCHITECTURE.md)
 
 ## 設計
-* [ユースケース](design/use_case.md)
-* [クラス図](class-diagram/STATUS.puml.md)
+* [ユースケース(仮)](design/use_case.md)
+* [クラス図(仮)](class-diagram/STATUS.puml.md)
 
 ## 実装
 
-* [ディレクトリ構造](implementation/structure.md)
-* [Domain層の実装方法](implementation/domain.md)
+* [ディレクトリ構造(仮)](implementation/structure.md)
+* [Domain層の実装方法(仮)](implementation/domain.md)
