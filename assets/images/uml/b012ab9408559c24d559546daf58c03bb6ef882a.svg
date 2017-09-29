@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="360px" preserveAspectRatio="none" style="width:272px;height:360px;" version="1.1" viewBox="0 0 272 360" width="272px" zoomAndPan="magnify"><defs><filter height="300%" id="f1d15ce65pv7b1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="4.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="8.0" dy="8.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1d15ce65pv7b1)" height="67.9375" style="stroke: #A80036; stroke-width: 3.0;" width="126" x="73.5" y="16"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="98" x="87.5" y="42.2773">ギルドメンバー</text><line style="stroke: #A80036; stroke-width: 3.0;" x1="75.5" x2="197.5" y1="51.9375" y2="51.9375"/><rect fill="#FEFECE" filter="url(#f1d15ce65pv7b1)" height="98.5" style="stroke: #A80036; stroke-width: 3.0;" width="96" x="12" y="241"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="42" x="39" y="267.2773">スキル</text><line style="stroke: #A80036; stroke-width: 3.0;" x1="14" x2="106" y1="276.9375" y2="276.9375"/><text fill="#000000" font-family="sans-serif" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="60" x="24" y="303.502">スキルLv</text><text fill="#000000" font-family="sans-serif" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="72" x="24" y="326.7832">スキル経験値</text><rect fill="#FEFECE" filter="url(#f1d15ce65pv7b1)" height="75.2188" style="stroke: #A80036; stroke-width: 3.0;" width="72" x="178" y="252"/><text fill="#000000" font-family="sans-serif" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="42" x="193" y="278.2773">ジョブ</text><line style="stroke: #A80036; stroke-width: 3.0;" x1="180" x2="248" y1="287.9375" y2="287.9375"/><text fill="#000000" font-family="sans-serif" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="48" x="190" y="314.502">習得条件</text><!--link ギルドメンバー to スキル--><path d="M117.2632,84.318 C107.9352,101.562 97.1528,123.422 90,144 C80.3778,171.6828 73.3538,203.4856 68.532,230.1508 " fill="none" id="ギルドメンバー-スキル" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="66.7274,240.4764,77.707,224.1225,68.4491,230.6257,61.9459,221.3678,66.7274,240.4764" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="32" x="92" y="170.1338">所有</text><!--link ギルドメンバー to ジョブ--><path d="M146.8456,84.814 C160.3108,125.556 183.3636,195.305 198.6418,241.5318 " fill="none" id="ギルドメンバー-ジョブ" style="stroke: #A80036; stroke-width: 2.0;"/><polygon fill="#A80036" points="201.9674,251.5938,203.9144,231.9925,198.8291,242.099,188.7227,237.0138,201.9674,251.5938" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="32" x="178" y="170.1338">取得</text><!--
+@startuml
+scale 2
+
+object ギルドメンバー {
+}
+object スキル {
+    スキルLv
+    スキル経験値
+}
+object ジョブ {
+    習得条件
+}
+
+ギルドメンバー - -> スキル: 所有
+ギルドメンバー - -> ジョブ: 取得
+
+@enduml
+
+PlantUML version 1.2017.15(Mon Jul 03 16:45:34 UTC 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Linux
+OS Version: 3.13.0-129-generic
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
