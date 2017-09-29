@@ -4,6 +4,7 @@
 
 ```uml
 @startuml
+scale 1.5
 
 object 募集内容 {
     企画
@@ -36,6 +37,7 @@ object パーティー
 
 ```uml
 @startuml
+scale 2
 
 object ギルドメンバー {
 }
