@@ -306,85 +306,9 @@
                                 <section class="normal markdown-section">
                                 
                                 <p><img src="../assets/images/uml/d06d2cb1c737dc620e8801312e3ad0ad4f7d696a.svg"></p>
-<pre><code>@startuml
+<p><img src="../assets/images/uml/8c577df810b7cd21fb189e730fc62b0a8724e10e.svg"></p>
+<p><img src="../assets/images/uml/5aeb6c5792312a5ce63faabd6075af2f6e3a1708.svg"></p>
 
-object &#x30AE;&#x30EB;&#x30C9;&#x30E1;&#x30F3;&#x30D0;&#x30FC; {
-    &#x5B66;&#x7C4D;&#x756A;&#x53F7;
-    &#x540D;&#x524D;
-    &#x30B3;&#x30FC;&#x30B9;
-    &#x6027;&#x5225;
-}
-object &#x30B9;&#x30AD;&#x30EB; {
-    &#x30B9;&#x30AD;&#x30EB;&#x540D;
-}
-object &#x6240;&#x6301;&#x30B9;&#x30AD;&#x30EB; {
-    &#x30B9;&#x30AD;&#x30EB;&#x30EC;&#x30D9;&#x30EB;
-    &#x7D2F;&#x8A08;&#x7D4C;&#x9A13;&#x5024;
-}
-object &#x30B8;&#x30E7;&#x30D6; {
-    &#x30B8;&#x30E7;&#x30D6;&#x540D;
-    &#x30A4;&#x30E1;&#x30FC;&#x30B8;&#x753B;&#x50CF;
-}
-object &#x53D6;&#x5F97;&#x6761;&#x4EF6; {
-    &#x5FC5;&#x8981;&#x30EC;&#x30D9;&#x30EB;
-}
-
-object &#x53C2;&#x52A0;&#x7533;&#x8ACB; {
-    &#x72B6;&#x614B;&#xFF08;&#x627F;&#x8A8D;&#x30FB;&#x672A;&#x627F;&#x8A8D;&#xFF09;
-}
-
-object &#x53C2;&#x52A0;&#x30D1;&#x30FC;&#x30C6;&#x30A3;&#x30FC;
-
-&#x30AE;&#x30EB;&#x30C9;&#x30E1;&#x30F3;&#x30D0;&#x30FC; o--&gt; &#x6240;&#x6301;&#x30B9;&#x30AD;&#x30EB;
-&#x30AE;&#x30EB;&#x30C9;&#x30E1;&#x30F3;&#x30D0;&#x30FC; o--&gt; &#x30B8;&#x30E7;&#x30D6;
-&#x30AE;&#x30EB;&#x30C9;&#x30E1;&#x30F3;&#x30D0;&#x30FC; o--&gt; &#x53C2;&#x52A0;&#x30D1;&#x30FC;&#x30C6;&#x30A3;&#x30FC;
-&#x30AE;&#x30EB;&#x30C9;&#x30E1;&#x30F3;&#x30D0;&#x30FC; o--&gt; &#x53C2;&#x52A0;&#x7533;&#x8ACB;
-&#x6240;&#x6301;&#x30B9;&#x30AD;&#x30EB; --&gt; &#x30B9;&#x30AD;&#x30EB;
-
-&#x30B8;&#x30E7;&#x30D6; o--&gt; &#x53D6;&#x5F97;&#x6761;&#x4EF6;
-&#x53D6;&#x5F97;&#x6761;&#x4EF6; --&gt; &#x30B9;&#x30AD;&#x30EB;
-
-@enduml
-</code></pre><pre><code>@startuml
-
-object &#x8A55;&#x4FA1; {
-    &#x8A55;&#x4FA1;&#x70B9;
-}
-
-object &#x6388;&#x696D; {
-    &#x65E5;&#x6642;&#xFF1F;
-}
-
-object &#x5B66;&#x751F;
-object &#x53C2;&#x52A0;&#x5B66;&#x751F;
-object &#x62C5;&#x5F53;&#x6559;&#x54E1;
-object &#x62C5;&#x5F53;&#x6388;&#x696D;&#x30AB;&#x30EA;&#x30AD;&#x30E5;&#x30E9;&#x30E0;
-object &#x6388;&#x696D;&#x30AB;&#x30EA;&#x30AD;&#x30E5;&#x30E9;&#x30E0; {
-    &#x6559;&#x79D1;
-    &#x62C5;&#x5F53;&#x6559;&#x54E1;
-    &#x62C5;&#x5F53;&#x30AF;&#x30E9;&#x30B9;
-    &#x671F;&#x9593;
-    &#x5B9F;&#x65BD;&#x66DC;&#x65E5;
-    &#x5B9F;&#x65BD;&#x6642;&#x9593;
-}
-object &#x6559;&#x54E1;
-object &#x6559;&#x79D1; {
-    &#x6559;&#x79D1;&#x540D;
-}
-object &#x7FD2;&#x5F97;&#x3067;&#x304D;&#x308B;&#x30B9;&#x30AD;&#x30EB;
-
-
-&#x6388;&#x696D; &lt;-- &#x8A55;&#x4FA1;
-&#x8A55;&#x4FA1; --&gt; &#x5B66;&#x751F;
-&#x6388;&#x696D; --&gt; &#x62C5;&#x5F53;&#x6559;&#x54E1;
-&#x6388;&#x696D; --&gt; &#x6559;&#x79D1;
-&#x62C5;&#x5F53;&#x6559;&#x54E1; --|&gt; &#x6559;&#x54E1;
-&#x6559;&#x54E1; o--&gt; &#x62C5;&#x5F53;&#x6388;&#x696D;&#x30AB;&#x30EA;&#x30AD;&#x30E5;&#x30E9;&#x30E0;
-&#x62C5;&#x5F53;&#x6388;&#x696D;&#x30AB;&#x30EA;&#x30AD;&#x30E5;&#x30E9;&#x30E0; --|&gt; &#x6388;&#x696D;&#x30AB;&#x30EA;&#x30AD;&#x30E5;&#x30E9;&#x30E0;
-&#x6559;&#x79D1; o--&gt; &#x7FD2;&#x5F97;&#x3067;&#x304D;&#x308B;&#x30B9;&#x30AD;&#x30EB;
-
-@enduml
-</code></pre>
                                 
                                 </section>
                             
@@ -427,7 +351,7 @@ object &#x7FD2;&#x5F97;&#x3067;&#x304D;&#x308B;&#x30B9;&#x30AD;&#x30EB;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ドメインモデル図(未)","level":"3.5","depth":1,"next":{"title":"GUILD","level":"4.1","depth":1,"path":"function-list/guild.md","ref":"function-list/guild.md","articles":[]},"previous":{"title":"クラス図(仮)","level":"3.4","depth":1,"path":"class-diagram/STATUS.puml.md","ref":"class-diagram/STATUS.puml.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"design/domain_model.puml.md","mtime":"2017-10-17T04:27:24.666Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-17T04:28:56.777Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ドメインモデル図(未)","level":"3.5","depth":1,"next":{"title":"GUILD","level":"4.1","depth":1,"path":"function-list/guild.md","ref":"function-list/guild.md","articles":[]},"previous":{"title":"クラス図(仮)","level":"3.4","depth":1,"path":"class-diagram/STATUS.puml.md","ref":"class-diagram/STATUS.puml.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"design/domain_model.puml.md","mtime":"2017-10-17T04:37:38.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-17T04:39:04.890Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
