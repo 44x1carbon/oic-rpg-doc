@@ -53,7 +53,7 @@ object パーティーメンバー
 @enduml
 ```
 
-```
+```uml
 @startuml
 
 object ギルドメンバー {
@@ -95,7 +95,7 @@ object 参加パーティー
 @enduml
 ```
 
-```
+```uml
 @startuml
 
 object 評価 {
@@ -107,7 +107,6 @@ object 授業 {
 }
 
 object 学生
-object 参加学生
 object 担当教員
 object 担当授業カリキュラム
 object 授業カリキュラム {
