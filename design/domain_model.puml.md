@@ -17,9 +17,9 @@ package {
 
   object 制作アイデア {
       テーマ
-      制作物の種類
       説明
   }
+
 
   object メンバー募集 {
       募集ステータス
@@ -34,6 +34,8 @@ package {
   }
 }
 
+object 制作物の種類
+制作アイデア -le-> 制作物の種類
 object 管理者
 object 申請主
 object パーティーメンバー
