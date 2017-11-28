@@ -13,6 +13,7 @@
 * [機能一覧(仮)](design/functions_list.md)
 * [クラス図(仮)](class-diagram/STATUS.puml.md)
 * [ドメインモデル図(未)](design/domain_model.puml.md)
+* [シーケンス図](design/sequence.puml.md)
 
 ## 機能
 * [GUILD](function-list/guild.md)
