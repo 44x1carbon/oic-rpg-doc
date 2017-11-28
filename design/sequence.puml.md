@@ -1,7 +1,15 @@
+# リンク
+- [ギルドメンバーの新規登録](#ギルドメンバーの新規登録)
+
+# ギルドメンバーの新規登録
+
 ```uml
 @startuml{plantuml_seq_sample.png}
-title ギルドメンバーの新規登録
+skinparam backgroundColor #FAFAFA
 hide footbox
+title ギルドメンバーの新規登録
+
+
 
 participant GuildMemberService as main <<Service>>
 [-> main: registerGuildMember(\n string $studentNumber, \n string $courseId, \n string $genderType, \n string $mailAddress, \n string $introduction \n)
