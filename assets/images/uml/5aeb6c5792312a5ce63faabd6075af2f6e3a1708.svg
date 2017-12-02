@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="499px" preserveAspectRatio="none" style="width:282px;height:499px;" version="1.1" viewBox="0 0 282 499" width="282px" zoomAndPan="magnify"><defs><filter height="300%" id="fvqq9bwodx9lv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="37.9102" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="6" y="106"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="15" y="119.6016">評価</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="47" y1="124.1328" y2="124.1328"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="30" x="12" y="137.8008">評価点</text><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="37.9102" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="93" y="8"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="102" y="21.6016">授業</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="94" x2="134" y1="26.1328" y2="26.1328"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="30" x="99" y="39.8008">日時？</text><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="34.1328" style="stroke: #A80036; stroke-width: 1.5;" width="38" x="8" y="204"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="15" y="217.6016">学生</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="9" x2="45" y1="222.1328" y2="222.1328"/><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="34.1328" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="83" y="108"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="90" y="121.6016">担当教員</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="84" x2="144" y1="126.1328" y2="126.1328"/><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="34.1328" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="40" y="298"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="120" x="47" y="311.6016">担当授業カリキュラム</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="41" x2="173" y1="316.1328" y2="316.1328"/><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="96.7969" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="52" y="392"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="59" y="405.6016">授業カリキュラム</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="53" x2="161" y1="410.1328" y2="410.1328"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="58" y="423.8008">教科</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="40" x="58" y="435.5781">担当教員</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="50" x="58" y="447.3555">担当クラス</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="58" y="459.1328">期間</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="40" x="58" y="470.9102">実施曜日</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="40" x="58" y="482.6875">実施時間</text><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="34.1328" style="stroke: #A80036; stroke-width: 1.5;" width="38" x="88" y="204"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="95" y="217.6016">教員</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="89" x2="125" y1="222.1328" y2="222.1328"/><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="37.9102" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="184" y="106"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="193" y="119.6016">教科</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="185" x2="225" y1="124.1328" y2="124.1328"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="30" x="190" y="137.8008">教科名</text><rect fill="#FEFECE" filter="url(#fvqq9bwodx9lv)" height="34.1328" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="161" y="204"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="168" y="217.6016">習得できるスキル</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="162" x2="270" y1="222.1328" y2="222.1328"/><!--link 授業 to 評価--><path d="M93.1169,50.5235 C78.1383,67.396 58.2034,89.8513 44.1527,105.6786 " fill="none" id="授業-評価" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="96.8116,46.3616,87.8453,50.4365,93.4922,50.1008,93.8279,55.7476,96.8116,46.3616" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 評価 to 学生--><path d="M27,144.427 C27,160.0802 27,182.1072 27,198.5207 " fill="none" id="評価-学生" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="27,203.8544,31,194.8544,27,198.8544,23,194.8544,27,203.8544" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 授業 to 担当教員--><path d="M114,46.3616 C114,62.6394 114,85.9071 114,102.9092 " fill="none" id="授業-担当教員" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="114,107.9699,118,98.9699,114,102.9699,110,98.9699,114,107.9699" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 授業 to 教科--><path d="M131.9787,46.3616 C146.8105,62.3344 167.8919,85.0374 183.5935,101.9468 " fill="none" id="授業-教科" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="187.0587,105.6786,183.8658,96.3617,183.6564,102.0146,178.0035,101.8053,187.0587,105.6786" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 担当教員 to 教員--><path d="M112.7485,142.1629 C111.9024,153.7666 110.7523,169.5398 109.7031,183.9292 " fill="none" id="担当教員-教員" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="116.6767,184.5478,108.2406,203.9857,102.7137,183.5296,116.6767,184.5478" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 教員 to 担当授業カリキュラム--><path d="M107,251.3873 C107,262.0932 107,274.1189 107,284.8086 " fill="none" id="教員-担当授業カリキュラム" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="107,297.8683,111,288.8683,107,292.8683,103,288.8683,107,297.8683" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="107" x2="107.0001" y1="292.8683" y2="284.8683"/><polygon fill="#FFFFFF" points="107,238.241,103,244.241,107,250.241,111,244.241,107,238.241" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 担当授業カリキュラム to 授業カリキュラム--><path d="M107,332.1871 C107,342.7561 107,357.0666 107,371.8183 " fill="none" id="担当授業カリキュラム-授業カリキュラム" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="114.0001,371.8978,107,391.8977,100.0001,371.8977,114.0001,371.8978" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 教科 to 習得できるスキル--><path d="M208.7544,157.7658 C209.9737,168.4068 211.3207,180.1623 212.5191,190.6216 " fill="none" id="教科-習得できるスキル" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="214.0354,203.8544,216.9848,194.4575,213.4662,198.8869,209.0368,195.3683,214.0354,203.8544" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="213.4662" x2="212.5554" y1="198.8869" y2="190.9389"/><polygon fill="#FFFFFF" points="207.226,144.427,203.9351,150.8434,208.5922,156.349,211.8831,149.9326,207.226,144.427" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+
+object 評価 {
+    評価点
+}
+
+object 授業 {
+    日時？
+}
+
+object 学生
+object 担当教員
+object 担当授業カリキュラム
+object 授業カリキュラム {
+    教科
+    担当教員
+    担当クラス
+    期間
+    実施曜日
+    実施時間
+}
+object 教員
+object 教科 {
+    教科名
+}
+object 習得できるスキル
+
+
+授業 <- - 評価
+評価 - -> 学生
+授業 - -> 担当教員
+授業 - -> 教科
+担当教員 - -|> 教員
+教員 o- -> 担当授業カリキュラム
+担当授業カリキュラム - -|> 授業カリキュラム
+教科 o- -> 習得できるスキル
+
+@enduml
+
+PlantUML version 1.2017.15(Tue Jul 04 01:45:34 JST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_131-b11
+Operating System: Mac OS X
+OS Version: 10.12.6
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

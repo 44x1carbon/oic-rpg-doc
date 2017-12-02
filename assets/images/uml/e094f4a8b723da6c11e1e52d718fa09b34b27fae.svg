@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="547.5px" preserveAspectRatio="none" style="width:510px;height:547px;" version="1.1" viewBox="0 0 510 547" width="510px" zoomAndPan="magnify"><defs><filter height="300%" id="fh97sa8ffea2u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster パーティーメンバー--><polygon fill="#FFFFFF" filter="url(#fh97sa8ffea2u)" points="21,24,219,24,229.5,57.7324,283.5,57.7324,283.5,127.5,21,127.5,21,24" style="stroke: #000000; stroke-width: 3.0;"/><line style="stroke: #000000; stroke-width: 3.0;" x1="21" x2="229.5" y1="57.7324" y2="57.7324"/><text fill="#000000" font-family="sans-serif" font-size="21" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="189" x="27" y="47.3027">パーティーメンバー</text><rect fill="#FEFECE" filter="url(#fh97sa8ffea2u)" height="51.1992" style="stroke: #A80036; stroke-width: 2.25;" width="111" x="33" y="64.5"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="90" x="43.5" y="84.9023">参加希望者</text><line style="stroke: #A80036; stroke-width: 2.25;" x1="34.5" x2="142.5" y1="91.6992" y2="91.6992"/><rect fill="#FEFECE" filter="url(#fh97sa8ffea2u)" height="51.1992" style="stroke: #A80036; stroke-width: 2.25;" width="75" x="196.5" y="64.5"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="54" x="207" y="84.9023">募集主</text><line style="stroke: #A80036; stroke-width: 2.25;" x1="198" x2="270" y1="91.6992" y2="91.6992"/><rect fill="#FEFECE" filter="url(#fh97sa8ffea2u)" height="127.5293" style="stroke: #A80036; stroke-width: 2.25;" width="123" x="42" y="403.5"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="72" x="67.5" y="423.9023">募集内容</text><line style="stroke: #A80036; stroke-width: 2.25;" x1="43.5" x2="163.5" y1="430.6992" y2="430.6992"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="105" x="51" y="451.2012">キャッチコピー</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="30" x="51" y="468.8672">企画</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="30" x="51" y="486.5332">目標</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="60" x="51" y="504.1992">制作期間</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="75" x="51" y="521.8652">募集主のID</text><rect fill="#FEFECE" filter="url(#fh97sa8ffea2u)" height="109.8633" style="stroke: #A80036; stroke-width: 2.25;" width="93" x="217.5" y="412.5"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="72" x="228" y="432.9023">募集役割</text><line style="stroke: #A80036; stroke-width: 2.25;" x1="219" x2="309" y1="439.6992" y2="439.6992"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="45" x="226.5" y="460.2012">役割名</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="45" x="226.5" y="477.8672">ジョブ</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="45" x="226.5" y="495.5332">スキル</text><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="60" x="226.5" y="513.1992">募集人数</text><rect fill="#FEFECE" filter="url(#fh97sa8ffea2u)" height="56.8652" style="stroke: #A80036; stroke-width: 2.25;" width="111" x="139.5" y="231"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="90" x="150" y="251.4023">パーティー</text><line style="stroke: #A80036; stroke-width: 2.25;" x1="141" x2="249" y1="258.1992" y2="258.1992"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="60" x="148.5" y="278.7012">募集状態</text><!--link 参加希望者 to 募集内容--><path d="M84.1915,115.8929 C79.7326,144.1032 73.0677,190.6099 70.5,231 C68.8928,256.2823 68.1971,262.7715 70.5,288 C73.7622,323.7369 80.6103,362.9886 87.227,395.6277 " fill="none" id="参加希望者-募集内容" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="88.812,403.3449,91.9731,388.9138,87.303,395.9983,80.2185,391.3282,88.812,403.3449" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacingAndGlyphs" textLength="39" x="72" y="267.1025">見る</text><!--link 参加希望者 to パーティー--><path d="M104.6751,115.7435 C122.8197,144.6216 152.3658,191.6456 172.6958,224.0016 " fill="none" id="参加希望者-パーティー" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="176.8866,230.6717,174.7847,216.0487,172.8964,224.3212,164.6239,222.4329,176.8866,230.6717" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacingAndGlyphs" textLength="39" x="150" y="180.8525">参加</text><!--link 募集主 to パーティー--><path d="M228.0768,115.7435 C221.4878,144.38 210.7933,190.8599 203.3553,223.1864 " fill="none" id="募集主-パーティー" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="201.633,230.6717,210.5073,218.8608,203.3147,223.3626,198.8128,216.17,201.633,230.6717" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacingAndGlyphs" textLength="273" x="219" y="180.8525">パーティーメンバーの募集開始</text><!--link パーティー to 募集内容--><path d="M182.2773,288.3867 C170.0778,316.0856 151.1696,359.0168 134.9354,395.8763 " fill="none" id="パーティー-募集内容" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="131.727,403.161,142.6596,393.2248,134.7501,396.2973,131.6776,388.3878,131.727,403.161" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacingAndGlyphs" textLength="39" x="162" y="353.3525">詳細</text><!--link 募集内容 to 募集役割--><path d="M165.5684,467.25 C180.3024,467.25 195.0366,467.25 209.7707,467.25 " fill="none" id="募集内容-募集役割" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="217.4757,467.25,203.9757,461.25,209.9757,467.25,203.9757,473.25,217.4757,467.25" style="stroke: #A80036; stroke-width: 1.5;"/><!--
+@startuml
+scale 1.5
+
+object 募集内容 {
+    キャッチコピー
+    企画
+    目標
+    制作期間
+    募集主のID
+}
+object 募集役割 {
+    役割名
+    ジョブ
+    スキル
+    募集人数
+}
+package パーティーメンバー {
+    object 参加希望者
+    object 募集主
+}
+object パーティー {
+    募集状態
+}
+
+参加希望者 -do-> 募集内容: 見る
+参加希望者 - -> パーティー: 参加
+募集主 - -> パーティー: パーティーメンバーの募集開始
+パーティー - -> 募集内容: 詳細
+募集内容 -> 募集役割
+
+@enduml
+
+PlantUML version 1.2017.15(Tue Jul 04 01:45:34 JST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_131-b11
+Operating System: Mac OS X
+OS Version: 10.12.6
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

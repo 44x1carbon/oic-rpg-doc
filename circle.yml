@@ -1,4 +1,34 @@
 general:
   branches:
-    ignore:
-      - gh-pages
+    only:
+      - master
+
+machine:
+  node:
+    version: 6.2.2
+
+test:
+  override:
+    - exit 0
+
+dependencies:
+  pre:
+    - sudo apt install graphviz
+  override:
+    - npm install
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global user.name $USERNAME
+      - git config --global user.email $EMAIL
+      - npm run build
+      - |
+        cat <<EOF > ./_book/circle.yml
+        general:
+          branches:
+            ignore:
+              - gh-pages
+        EOF
+      - npm run publish

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>ディレクトリ構造(仮) · GitBook</title>
+        <title>ユースケース(仮) · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="domain.html" />
+    <link rel="next" href="functions_list.html" />
     
     
-    <link rel="prev" href="../function-list/guild.html" />
+    <link rel="prev" href="overview.puml.html" />
     
 
     </head>
@@ -142,9 +142,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../design/overview.puml.html">
+        <li class="chapter " data-level="3.1" data-path="overview.puml.html">
             
-                <a href="../design/overview.puml.html">
+                <a href="overview.puml.html">
             
                     
                     概要図(仮)
@@ -155,9 +155,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="../design/use_case.puml.html">
+        <li class="chapter active" data-level="3.2" data-path="use_case.puml.html">
             
-                <a href="../design/use_case.puml.html">
+                <a href="use_case.puml.html">
             
                     
                     ユースケース(仮)
@@ -168,9 +168,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.3" data-path="../design/functions_list.html">
+        <li class="chapter " data-level="3.3" data-path="functions_list.html">
             
-                <a href="../design/functions_list.html">
+                <a href="functions_list.html">
             
                     
                     機能一覧(仮)
@@ -194,9 +194,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="../design/domain_model.puml.html">
+        <li class="chapter " data-level="3.5" data-path="domain_model.puml.html">
             
-                <a href="../design/domain_model.puml.html">
+                <a href="domain_model.puml.html">
             
                     
                     ドメインモデル図(未)
@@ -207,9 +207,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.6" data-path="../design/sequence.puml.html">
+        <li class="chapter " data-level="3.6" data-path="sequence.puml.html">
             
-                <a href="../design/sequence.puml.html">
+                <a href="sequence.puml.html">
             
                     
                     シーケンス図
@@ -247,9 +247,9 @@
         
         
     
-        <li class="chapter active" data-level="5.1" data-path="structure.html">
+        <li class="chapter " data-level="5.1" data-path="../implementation/structure.html">
             
-                <a href="structure.html">
+                <a href="../implementation/structure.html">
             
                     
                     ディレクトリ構造(仮)
@@ -260,9 +260,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.2" data-path="domain.html">
+        <li class="chapter " data-level="5.2" data-path="../implementation/domain.html">
             
-                <a href="domain.html">
+                <a href="../implementation/domain.html">
             
                     
                     Domain層の実装方法(仮)
@@ -303,7 +303,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >ディレクトリ構造(仮)</a>
+        <a href=".." >ユースケース(仮)</a>
     </h1>
 </div>
 
@@ -318,22 +318,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x69CB;&#x9020;">&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x69CB;&#x9020;</h1>
-<pre><code>- app
-    - Domain //&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x5C64;&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;
-        - Common        //&#x5168;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3067;&#x5171;&#x6709;&#x306E;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
-        - Dungeon       //Dungeon&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
-        - Guild         //Guild&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
-        - RaidBattle    //RaidBattle&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;
-        - Status        //Status&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306A;&#x3069;     
-        - Utilities     //Entity&#x3084;VO&#x306E;&#x57FA;&#x5E95;&#x30AF;&#x30E9;&#x30B9;&#x3001;&#x305D;&#x306E;&#x4ED6;Utility&#x306A;&#x3069;
-</code></pre><h2 id="domain">Domain</h2>
-<p>&#x3053;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x306F;&#x3001;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x306B;&#x95A2;&#x3059;&#x308B;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x3067;&#x3059;&#x3002;<br>&#x5404;&#x5B50;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;(Utilities&#x3092;&#x9664;&#x304F;)&#x4E2D;&#x306B;&#x306F;&#x3001;&#x305D;&#x308C;&#x305E;&#x308C;&#x306E;&#x30E6;&#x30D3;&#x30AD;&#x30BF;&#x30B9;&#x8A00;&#x8A9E;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;<br>&#x3053;&#x306E;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x306E;&#x4E2D;&#x306B;&#x306F;&#x3001;Entity&#x3084;ValueObject,Factory,Repository&#x306E;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x751F;&#x6210;&#x3057;&#x307E;&#x3059;&#x3002;<br><small>&#x203B;&#x8A73;&#x3057;&#x304F;&#x306F;<a href="">&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x306B;&#x3064;&#x3044;&#x3066;</a>&#x3092;&#x53C2;&#x7167;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</small></p>
-<pre><code>&#x4F8B;&#xFF09;
-- Domain
-    - Common
-        - Student //Student(&#x5B66;&#x751F;)&#x306B;&#x95A2;&#x3059;&#x308B;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30E2;&#x30C7;&#x30EB;&#x3092;&#x683C;&#x7D0D;&#x3059;&#x308B;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;
-</code></pre>
+                                <h1 id="&#x30E6;&#x30FC;&#x30B9;&#x30B1;&#x30FC;&#x30B9;">&#x30E6;&#x30FC;&#x30B9;&#x30B1;&#x30FC;&#x30B9;</h1>
+<p><img src="../assets/images/uml/077297835f84cf81ac1635725c1387b24828c994.svg"></p>
+
                                 
                                 </section>
                             
@@ -360,12 +347,12 @@
 
             
                 
-                <a href="../function-list/guild.html" class="navigation navigation-prev " aria-label="Previous page: GUILD">
+                <a href="overview.puml.html" class="navigation navigation-prev " aria-label="Previous page: 概要図(仮)">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="domain.html" class="navigation navigation-next " aria-label="Next page: Domain層の実装方法(仮)">
+                <a href="functions_list.html" class="navigation navigation-next " aria-label="Next page: 機能一覧(仮)">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -376,7 +363,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ディレクトリ構造(仮)","level":"5.1","depth":1,"next":{"title":"Domain層の実装方法(仮)","level":"5.2","depth":1,"path":"implementation/domain.md","ref":"implementation/domain.md","articles":[]},"previous":{"title":"GUILD","level":"4.1","depth":1,"path":"function-list/guild.md","ref":"function-list/guild.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"implementation/structure.md","mtime":"2017-09-06T17:13:53.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-12-02T06:26:49.925Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ユースケース(仮)","level":"3.2","depth":1,"next":{"title":"機能一覧(仮)","level":"3.3","depth":1,"path":"design/functions_list.md","ref":"design/functions_list.md","articles":[]},"previous":{"title":"概要図(仮)","level":"3.1","depth":1,"path":"design/overview.puml.md","ref":"design/overview.puml.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["uml"],"pluginsConfig":{"uml":{"format":"svg","charset":"UTF-8","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"design/use_case.puml.md","mtime":"2017-12-02T06:22:39.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-12-02T06:26:49.925Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
